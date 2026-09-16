@@ -18,8 +18,8 @@ window.YASHMI_CONTENT = {
     { id:"writing-01", section:"notes", type:"Writing", year:"2026", title:"What the city keeps", subtitle:"Creative nonfiction · 1,800 words", description:"A one-sentence standfirst belongs here. Keep the site summary spare and let the writing carry the voice.", image:"", color:"paper", featured:false, tags:["Creative nonfiction"] }
   ],
   nowReading: [
-    { isbn:"9780593652886", bookUrl:"", title:"The Creative Act", author:"Rick Rubin", link:"", cover:"" },
-    { isbn:"9780141035796", bookUrl:"", title:"Ways of Seeing", author:"John Berger", link:"", cover:"" }
+    { isbn:"9780593652886", bookUrl:"", title:"The Creative Act", author:"Rick Rubin", link:"https://literal.club/yashmiadani", cover:"" },
+    { isbn:"9780141035796", bookUrl:"", title:"Ways of Seeing", author:"John Berger", link:"https://literal.club/yashmiadani", cover:"" }
   ],
   notes: [
     {date:"16.09.26", title:"What belongs on a personal site?", text:"Only work that creates a useful signal: how I see, what I care about, and how I make.", fullText:"Only work that creates a useful signal: how I see, what I care about, and how I make."},
