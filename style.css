@@ -15,3 +15,11 @@
 .project h3{margin:52px 0 14px}
 .subtitle{margin:0;max-width:500px}
 @media(max-width:720px){.project-copy{padding:20px 18px 30px;min-height:230px}.project h3{margin-top:42px}}
+
+/* Notebook as a quiet dated log */
+.notebook-log{margin-right:3.2vw;border-top:1px solid var(--line)}
+.notebook-log article{display:grid;grid-template-columns:minmax(110px,15%) 1fr;gap:32px;padding:30px 0 34px;border:0;border-bottom:1px solid var(--line);background:transparent;min-height:0}
+.notebook-log time{font:10px/1.5 DM Mono;text-transform:uppercase;color:#666;padding-top:7px}
+.notebook-log h3{font:400 clamp(26px,3vw,42px)/1 Instrument Serif;margin:0 0 12px}
+.notebook-log p{font:14px/1.6 Manrope,sans-serif;max-width:650px;margin:0;color:#444}
+@media(max-width:720px){.notebook-log{margin-right:18px}.notebook-log article{grid-template-columns:72px 1fr;gap:18px;padding:24px 0 28px}.notebook-log h3{font-size:30px}.notebook-log p{font-size:13px}}
