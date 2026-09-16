@@ -1,0 +1,37 @@
+name: Sync Strava running total
+on:
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: strava-sync
+  cancel-in-progress: true
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull yearly running total from Strava
+        env:
+          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+          STRAVA_REFRESH_TOKEN_FILE: /tmp/strava-refresh-token
+        run: python3 scripts/sync-strava.py
+      - name: Store rotated Strava refresh token
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_SECRETS_PAT }}
+        run: |
+          if [ ! -s /tmp/strava-refresh-token ]; then exit 0; fi
+          gh secret set STRAVA_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY" < /tmp/strava-refresh-token
+          rm -f /tmp/strava-refresh-token
+      - name: Commit changed total
+        run: |
+          if git diff --quiet -- running-data.js; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add running-data.js
+          git commit -m "Update Strava running total"
+          git push
