@@ -8,3 +8,10 @@
 .collection .section-head span,.collection .rail-count{color:var(--section-accent)}
 .collection .rail-button{border-color:var(--section-accent);color:var(--section-accent)}
 .collection .rail-button:hover{background:var(--section-accent);color:var(--paper)}
+
+/* Calmer slider card hierarchy */
+.project-copy{padding:22px 22px 34px;min-height:250px}
+.meta{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#666}
+.project h3{margin:52px 0 14px}
+.subtitle{margin:0;max-width:500px}
+@media(max-width:720px){.project-copy{padding:20px 18px 30px;min-height:230px}.project h3{margin-top:42px}}
