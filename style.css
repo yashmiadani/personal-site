@@ -88,3 +88,6 @@
 
 /* Slider snap alignment wins over legacy Notes article rules */
 #play-grid .project,#notes-project-grid .project,#project-grid .project{scroll-snap-align:center}
+
+/* Neutral footer */
+footer{background:#dedbd1;color:var(--ink)}
