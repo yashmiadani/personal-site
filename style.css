@@ -37,3 +37,7 @@
 .notes .notebook-log h3{margin:0 0 24px;line-height:1.12}
 .notes .notebook-log p{line-height:1.75}
 @media(max-width:720px){.project .visual{height:96px}.project .visual span{font-size:64px}}
+
+/* Keep wayfinding color in details, not card-sized slabs */
+.collection .project .visual{background:#dedbd1}
+.collection .project .visual span,.collection .project .visual i{color:var(--section-accent);border-color:var(--section-accent)}
