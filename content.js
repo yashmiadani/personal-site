@@ -17,6 +17,10 @@ window.YASHMI_CONTENT = {
     { id:"research-01", section:"notes", type:"Research", year:"2026", title:"Notes on attention", subtitle:"A visual field study of how we notice, choose and remember.", description:"A home for a question, method, key finding and what surprised you. Link the full paper or working notes if they are useful on their own.", image:"", color:"blue", featured:false, tags:["Psychology","Field notes"] },
     { id:"writing-01", section:"notes", type:"Writing", year:"2026", title:"What the city keeps", subtitle:"Creative nonfiction · 1,800 words", description:"A one-sentence standfirst belongs here. Keep the site summary spare and let the writing carry the voice.", image:"", color:"paper", featured:false, tags:["Creative nonfiction"] }
   ],
+  nowReading: [
+    { isbn:"9780593652886", bookUrl:"", title:"The Creative Act", author:"Rick Rubin", link:"", cover:"" },
+    { isbn:"9780140135152", bookUrl:"", title:"Ways of Seeing", author:"John Berger", link:"", cover:"" }
+  ],
   notes: [
     {date:"16.09.26", title:"What belongs on a personal site?", text:"Only work that creates a useful signal: how I see, what I care about, and how I make.", fullText:"Only work that creates a useful signal: how I see, what I care about, and how I make."},
     {date:"04.09.26", title:"Making tiny software", text:"Personal apps can be closer to essays than products. Both begin with a precise irritation."}
