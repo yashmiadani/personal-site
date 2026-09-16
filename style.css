@@ -23,3 +23,12 @@
 .notebook-log h3{font:400 clamp(26px,3vw,42px)/1 Instrument Serif;margin:0 0 12px}
 .notebook-log p{font:14px/1.6 Manrope,sans-serif;max-width:650px;margin:0;color:#444}
 @media(max-width:720px){.notebook-log{margin-right:18px}.notebook-log article{grid-template-columns:72px 1fr;gap:18px;padding:24px 0 28px}.notebook-log h3{font-size:30px}.notebook-log p{font-size:13px}}
+
+/* Mobile card and notebook spacing refinement */
+.project-copy .meta{margin-bottom:0}
+.project-copy h3{margin-top:48px;margin-bottom:20px}
+.project-copy .subtitle{line-height:1.6}
+.notebook-log h3{margin-bottom:22px;line-height:1.08}
+.notebook-log p{line-height:1.75}
+.notebook-log article{padding-top:38px;padding-bottom:44px}
+@media(max-width:720px){.visual{height:34vw}.visual span{font-size:24vw}.visual i{width:25%}.project-copy{min-height:260px;padding-top:24px}.project-copy h3{margin-top:46px;margin-bottom:22px;line-height:1.02}.project-copy .subtitle{line-height:1.65}.notebook-log article{padding-top:34px;padding-bottom:40px}.notebook-log h3{line-height:1.12;margin-bottom:24px}.notebook-log p{line-height:1.75}}
