@@ -140,3 +140,17 @@ main>section[id]{scroll-margin-top:84px}
 .sunlight{position:absolute;z-index:0;pointer-events:none;inset:-28% -35%;opacity:.44;mix-blend-mode:multiply;background:linear-gradient(116deg,transparent 24%,rgba(220,170,105,.04) 34%,rgba(220,170,105,.22) 45%,rgba(255,224,167,.38) 52%,rgba(220,170,105,.15) 61%,rgba(92,67,45,.035) 68%,transparent 78%);filter:blur(24px);transform:translate3d(-7%,0,0) rotate(.01deg);animation:sunlight-shift 55s ease-in-out infinite alternate}@keyframes sunlight-shift{0%{transform:translate3d(-7%,0,0) rotate(.01deg);opacity:.38}100%{transform:translate3d(8%,2%,0) rotate(1.2deg);opacity:.5}}.running-strip{padding-top:28px}.running-body{padding-top:30px}.running-stat strong{font-size:clamp(68px,8vw,118px);line-height:.78}@media(max-width:720px){.running-strip{margin-top:68px;padding-top:24px}.running-stat strong{font-size:64px}.running-body{padding-top:26px}}
 
 @media(max-width:720px){.sunlight{inset:-20% -80%;filter:blur(20px);animation-duration:45s}}@media(prefers-reduced-motion:reduce){.sunlight{animation:none;transform:translate3d(0,0,0);opacity:.42}}
+
+/* Shelf-aligned Running and Subscribe rhythm */
+.running-strip{margin-top:72px;padding-top:34px;border-top:1px solid var(--line)}
+.running-head,.subscribe-copy span{font:10px DM Mono;text-transform:uppercase;letter-spacing:0}
+.running-head a:last-child,.running-stat span b{color:#666}
+.running-body{grid-template-columns:minmax(170px,.7fr) 1.6fr;gap:6vw;padding:34px 4px 22px}
+.running-stat{gap:12px}.running-stat strong{font-size:clamp(58px,7vw,96px);line-height:.8}.running-stat span{font-size:9px;color:#666}
+.running-route path{stroke-width:1.7}.running-route circle{opacity:.5}
+.subscribe-block{padding:54px 3.2vw 58px;gap:6vw;align-items:end}
+.subscribe-copy p{font-size:clamp(30px,3.4vw,48px);line-height:1.04;margin-top:18px}
+.subscribe-form{margin:0;align-self:end;border-top:1px solid var(--line);padding-top:10px}
+.subscribe-form label{font-size:9px;margin-bottom:10px}.subscribe-form>div{border-bottom:1px solid var(--line)}
+.subscribe-form input[type=email]{padding:11px 0;font-size:14px}.subscribe-form button{border-left:1px solid var(--line);padding:0 14px}
+@media(max-width:720px){.running-strip{margin-top:56px;padding-top:26px}.running-body{grid-template-columns:.72fr 1.28fr;gap:18px;padding:30px 4px 20px}.running-stat strong{font-size:58px}.running-stat span{margin-top:10px}.running-route{transform:none}.subscribe-block{padding:46px 18px 48px;gap:28px}.subscribe-copy p{font-size:31px;line-height:1.05;margin-top:16px}.subscribe-form{margin:0;padding-top:10px}.subscribe-form>div{grid-template-columns:1fr auto}.subscribe-form button{border-top:0;border-left:1px solid var(--line);padding:0 13px;text-align:center}}
