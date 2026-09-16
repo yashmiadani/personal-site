@@ -72,3 +72,11 @@
 #play .project-copy h3,#notes-project-grid .project-copy h3,#work .project-copy h3{font:400 clamp(32px,3.3vw,50px)/.95 Instrument Serif;margin:48px 0 20px;max-width:100%;overflow-wrap:anywhere}
 #play .project-copy .subtitle,#notes-project-grid .project-copy .subtitle,#work .project-copy .subtitle{font:14px/1.6 Manrope,sans-serif;margin:0;max-width:500px}
 @media(max-width:720px){#play .project-copy,#notes-project-grid .project-copy,#work .project-copy{padding:20px 18px 30px;min-height:230px}#play .project-copy h3,#notes-project-grid .project-copy h3,#work .project-copy h3{font-size:39px;line-height:1.02;margin:46px 0 22px}}
+
+/* Muted brand-color image slabs across every card */
+#play .project .visual{background:#d98a78}
+#notes-project-grid .project .visual{background:#9cafd0}
+#work .project .visual{background:#a9b5a2}
+#play .project .visual span,#play .project .visual i{color:#8f3428;border-color:#8f3428}
+#notes-project-grid .project .visual span,#notes-project-grid .project .visual i{color:#294f7d;border-color:#294f7d}
+#work .project .visual span,#work .project .visual i{color:#3f5940;border-color:#3f5940}
