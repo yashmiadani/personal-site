@@ -91,3 +91,5 @@
 
 /* Neutral footer */
 footer{background:#dedbd1;color:var(--ink)}
+/* Mobile card fit: the full card and rail controls stay in one viewport */
+@media(max-width:720px){#play .project-copy,#notes-project-grid .project-copy,#work .project-copy{height:230px;min-height:230px;max-height:230px;padding:20px 18px 24px}#play .project-copy h3,#notes-project-grid .project-copy h3,#work .project-copy h3{margin:34px 0 14px;line-height:1;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}#play .project-copy .subtitle,#notes-project-grid .project-copy .subtitle,#work .project-copy .subtitle{line-height:1.5;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}}
