@@ -13,3 +13,5 @@ function setupRail(id,countId){const rail=$('#'+id),items=[...rail.children],cou
 setupRail('project-grid','work-count');setupRail('notes-project-grid','notes-project-count');setupRail('play-grid','play-count');
 
 $('#running-km').textContent=Number(data.runningKm||0).toLocaleString(undefined,{maximumFractionDigits:1});$('#running-runs').textContent=`${Number(data.runningRuns||0)} runs`;
+
+$('#subscribe-label-home').textContent=data.subscribe?.label||'Subscribe for new essays';$('#subscribe-headline-home').textContent=data.subscribe?.headline||'Notes on stories, behaviour and the things worth noticing.';
