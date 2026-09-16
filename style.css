@@ -64,3 +64,11 @@
 #notes-project-grid .project .project-copy{width:100%}
 #notes-project-grid .project .subtitle{font-size:14px;line-height:1.6}
 @media(max-width:720px){#notes-project-grid .project .visual{height:64vw}#notes-project-grid .project .project-copy{padding:20px 18px 30px;min-height:230px}#notes-project-grid .project h3{font-size:39px}}
+
+/* One shared copy rhythm for every project card */
+#play .project-copy,#notes-project-grid .project-copy,#work .project-copy{padding:22px 22px 34px;min-height:250px}
+#play .project-copy .meta,#notes-project-grid .project-copy .meta,#work .project-copy .meta{display:block;font:9px/1.5 DM Mono;text-transform:uppercase;letter-spacing:normal;color:#666;margin:0;white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
+#play .project-copy .meta p,#notes-project-grid .project-copy .meta p,#work .project-copy .meta p{margin:0}
+#play .project-copy h3,#notes-project-grid .project-copy h3,#work .project-copy h3{font:400 clamp(32px,3.3vw,50px)/.95 Instrument Serif;margin:48px 0 20px;max-width:100%;overflow-wrap:anywhere}
+#play .project-copy .subtitle,#notes-project-grid .project-copy .subtitle,#work .project-copy .subtitle{font:14px/1.6 Manrope,sans-serif;margin:0;max-width:500px}
+@media(max-width:720px){#play .project-copy,#notes-project-grid .project-copy,#work .project-copy{padding:20px 18px 30px;min-height:230px}#play .project-copy h3,#notes-project-grid .project-copy h3,#work .project-copy h3{font-size:39px;line-height:1.02;margin:46px 0 22px}}
