@@ -85,3 +85,6 @@
 .rail{scroll-padding-left:3.2vw;scroll-padding-right:3.2vw}
 .project{scroll-snap-align:center}
 @media(max-width:720px){.rail{scroll-padding-left:26px;scroll-padding-right:26px;padding-left:8px}.project{scroll-snap-align:center}}
+
+/* Slider snap alignment wins over legacy Notes article rules */
+#play-grid .project,#notes-project-grid .project,#project-grid .project{scroll-snap-align:center}
