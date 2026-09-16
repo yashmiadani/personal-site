@@ -17,6 +17,7 @@ window.YASHMI_CONTENT = {
     { id:"research-01", section:"notes", type:"Research", year:"2026", title:"Notes on attention", subtitle:"A visual field study of how we notice, choose and remember.", description:"A home for a question, method, key finding and what surprised you. Link the full paper or working notes if they are useful on their own.", image:"", color:"blue", featured:false, tags:["Psychology","Field notes"] },
     { id:"writing-01", section:"notes", type:"Writing", year:"2026", title:"What the city keeps", subtitle:"Creative nonfiction · 1,800 words", description:"A one-sentence standfirst belongs here. Keep the site summary spare and let the writing carry the voice.", image:"", color:"paper", featured:false, tags:["Creative nonfiction"] }
   ],
+  runningKm: 0,
   nowReading: [
     { isbn:"9780593652886", bookUrl:"", title:"The Creative Act", author:"Rick Rubin", link:"https://literal.club/yashmiadani", cover:"" },
     { isbn:"9780141035796", bookUrl:"", title:"Ways of Seeing", author:"John Berger", link:"https://literal.club/yashmiadani", cover:"" }
