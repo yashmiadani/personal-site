@@ -32,3 +32,8 @@
 .notebook-log p{line-height:1.75}
 .notebook-log article{padding-top:38px;padding-bottom:44px}
 @media(max-width:720px){.visual{height:34vw}.visual span{font-size:24vw}.visual i{width:25%}.project-copy{min-height:260px;padding-top:24px}.project-copy h3{margin-top:46px;margin-bottom:22px;line-height:1.02}.project-copy .subtitle{line-height:1.65}.notebook-log article{padding-top:34px;padding-bottom:40px}.notebook-log h3{line-height:1.12;margin-bottom:24px}.notebook-log p{line-height:1.75}}
+
+/* Specific overrides for the final mobile rhythm */
+.notes .notebook-log h3{margin:0 0 24px;line-height:1.12}
+.notes .notebook-log p{line-height:1.75}
+@media(max-width:720px){.project .visual{height:96px}.project .visual span{font-size:64px}}
