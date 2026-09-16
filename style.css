@@ -154,3 +154,11 @@ main>section[id]{scroll-margin-top:84px}
 .subscribe-form label{font-size:9px;margin-bottom:10px}.subscribe-form>div{border-bottom:1px solid var(--line)}
 .subscribe-form input[type=email]{padding:11px 0;font-size:14px}.subscribe-form button{border-left:1px solid var(--line);padding:0 14px}
 @media(max-width:720px){.running-strip{margin-top:56px;padding-top:26px}.running-body{grid-template-columns:.72fr 1.28fr;gap:18px;padding:30px 4px 20px}.running-stat strong{font-size:58px}.running-stat span{margin-top:10px}.running-route{transform:none}.subscribe-block{padding:46px 18px 48px;gap:28px}.subscribe-copy p{font-size:31px;line-height:1.05;margin-top:16px}.subscribe-form{margin:0;padding-top:10px}.subscribe-form>div{grid-template-columns:1fr auto}.subscribe-form button{border-top:0;border-left:1px solid var(--line);padding:0 13px;text-align:center}}
+
+/* Quiet the rule system and add an in-route distance marker */
+header{border-bottom-color:rgba(23,23,19,.13)}
+.running-strip,.reading-shelf{border-top-color:rgba(23,23,19,.18)}
+.running-strip .shelf-line{height:1px;border:0;background:rgba(23,23,19,.2)}
+.subscribe-block{border-top:0}
+.shelf-line{border-top-width:1px;border-bottom-color:rgba(23,23,19,.14)}
+.running-route path{stroke-width:1.55}.route-distance rect{fill:var(--paper);stroke:rgba(23,23,19,.25);stroke-width:1}.route-distance text{font:10px DM Mono;text-transform:uppercase;fill:var(--ink);letter-spacing:.03em}
