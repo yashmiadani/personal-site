@@ -44,3 +44,8 @@
 
 /* Restore the original tall mobile card proportion */
 @media(max-width:720px){.collection .project .visual{height:64vw}.collection .project .visual span{font-size:clamp(90px,13vw,190px)}}
+
+/* Keep card copy inside its column at every width */
+.project,.project-copy{min-width:0;overflow:hidden}
+.project-copy .meta{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;line-height:1.5}
+.project-copy h3,.project-copy .subtitle{max-width:100%;overflow-wrap:anywhere;word-break:normal}
