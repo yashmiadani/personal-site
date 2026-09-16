@@ -80,3 +80,8 @@
 #play .project .visual span,#play .project .visual i{color:#8f3428;border-color:#8f3428}
 #notes-project-grid .project .visual span,#notes-project-grid .project .visual i{color:#294f7d;border-color:#294f7d}
 #work .project .visual span,#work .project .visual i{color:#3f5940;border-color:#3f5940}
+
+/* Center the active card in every slider */
+.rail{scroll-padding-left:3.2vw;scroll-padding-right:3.2vw}
+.project{scroll-snap-align:center}
+@media(max-width:720px){.rail{scroll-padding-left:26px;scroll-padding-right:26px;padding-left:8px}.project{scroll-snap-align:center}}
