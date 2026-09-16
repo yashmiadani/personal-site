@@ -41,3 +41,6 @@
 /* Keep wayfinding color in details, not card-sized slabs */
 .collection .project .visual{background:#dedbd1}
 .collection .project .visual span,.collection .project .visual i{color:var(--section-accent);border-color:var(--section-accent)}
+
+/* Restore the original tall mobile card proportion */
+@media(max-width:720px){.collection .project .visual{height:64vw}.collection .project .visual span{font-size:clamp(90px,13vw,190px)}}
