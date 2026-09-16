@@ -17,6 +17,7 @@ window.YASHMI_CONTENT = {
     { id:"research-01", section:"notes", type:"Research", year:"2026", title:"Notes on attention", subtitle:"A visual field study of how we notice, choose and remember.", description:"A home for a question, method, key finding and what surprised you. Link the full paper or working notes if they are useful on their own.", image:"", color:"blue", featured:false, tags:["Psychology","Field notes"] },
     { id:"writing-01", section:"notes", type:"Writing", year:"2026", title:"What the city keeps", subtitle:"Creative nonfiction · 1,800 words", description:"A one-sentence standfirst belongs here. Keep the site summary spare and let the writing carry the voice.", image:"", color:"paper", featured:false, tags:["Creative nonfiction"] }
   ],
+  subscribe: { label: "Subscribe for new essays", headline: "Notes on stories, behaviour and the things worth noticing." },
   runningKm: 54,
   runningRuns: 11,
   nowReading: [
