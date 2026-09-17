@@ -404,3 +404,7 @@ header{border-bottom-color:rgba(23,23,19,.13)}
  .resume-role,.resume-role-featured{padding:4mm 0}.resume-role h2{font-size:17pt}.resume-role-groups{gap:3mm 5mm;margin-top:3mm}.resume-role-groups h4{padding-top:1.5mm}.resume-consulting-list{grid-template-columns:repeat(3,1fr);gap:4mm;margin-top:3mm}.resume-consulting-list p{font-size:7pt;padding-top:1.5mm}
  .resume-split{break-before:page;page-break-before:always}.resume-small-section{padding:9mm 7mm 8mm}.resume-notes{padding:9mm 0}.resume-note-grid{margin-top:5mm}.resume-note-grid article{padding:4mm}.resume-note-grid h2{margin:8mm 0 2mm}.resume-footer{margin:0}
 }
+@media print{
+ .resume-section-heading{break-after:avoid;page-break-after:avoid}
+ .resume-split{break-before:auto;page-break-before:auto}
+}
