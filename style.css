@@ -228,3 +228,20 @@ header{border-bottom-color:rgba(23,23,19,.13)}
   #notes .project-copy{min-height:210px}
   #notes .rail-controls{max-width:none;padding:0}
 }
+
+/* Unified desktop collection system: Play, Notes and Work */
+@media(min-width:721px){
+  #play,#notes,#work{padding-left:0}
+  #play .section-head,#play .rail-wrap,#notes .section-head,#notes .rail-wrap,#work .section-head,#work .rail-wrap{width:min(920px,calc(100vw - 92px));max-width:none;margin-left:auto;margin-right:auto}
+  #play .section-head,#notes .section-head,#work .section-head{display:block;padding-right:0;margin-bottom:34px}
+  #play .section-head>div,#notes .section-head>div,#work .section-head>div{display:flex;align-items:baseline;gap:18px}
+  #play .section-head p,#notes .section-head p,#work .section-head p{margin:18px 0 0;max-width:330px}
+  #notes .rail,#work .rail{display:grid;grid-auto-flow:initial;grid-template-columns:repeat(2,minmax(0,1fr));max-width:none;padding:0 0 16px;gap:16px;overflow:visible;scroll-snap-type:none}
+  #notes .project,#work .project{width:auto;height:432px;display:grid;grid-template-rows:220px 212px;scroll-snap-align:start}
+  #notes .project .visual,#work .project .visual{height:220px;min-height:220px}
+  #notes .project-copy,#work .project-copy{height:212px;min-height:212px;padding:20px 21px 24px}
+  #notes .project-copy h3,#work .project-copy h3{font-size:clamp(30px,2.5vw,36px);line-height:.98;margin:34px 0 14px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+  #notes .project-copy .subtitle,#work .project-copy .subtitle{font-size:13px;line-height:1.5;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+  #notes .rail-controls,#work .rail-controls{max-width:none;padding:0}
+  #notes .rail-button,#work .rail-button{display:none}
+}
