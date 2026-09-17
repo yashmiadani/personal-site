@@ -163,4 +163,4 @@ header{border-bottom-color:rgba(23,23,19,.13)}
 .shelf-line{border-top-width:1px;border-bottom-color:rgba(23,23,19,.14)}
 .running-route path{stroke-width:1.55}
 
-.sunlight::after{content:"";position:absolute;inset:12% 20%;opacity:.18;background:linear-gradient(90deg,transparent 0 45%,rgba(66,49,35,.52) 47% 49%,transparent 51% 100%),linear-gradient(0deg,transparent 0 52%,rgba(66,49,35,.38) 54% 56%,transparent 58% 100%);filter:blur(7px);transform:skewX(-10deg)}
+.sunlight::before,.sunlight::after{content:"";position:absolute;pointer-events:none}.sunlight::before{inset:-10% 14%;opacity:.16;background:linear-gradient(102deg,transparent 0 35%,rgba(54,40,29,.5) 39% 43%,transparent 47% 62%,rgba(54,40,29,.32) 65% 69%,transparent 73%);filter:blur(12px);transform:rotate(-5deg)}.sunlight::after{inset:10% 8%;opacity:.13;background:linear-gradient(18deg,transparent 0 42%,rgba(72,52,34,.48) 45% 49%,transparent 53% 100%);filter:blur(18px);transform:skewX(-12deg)}
