@@ -182,4 +182,32 @@ header{border-bottom-color:rgba(23,23,19,.13)}
 .visual{height:min(18vw,250px)}.project-copy{min-height:178px}.project h3{font-size:clamp(28px,2.3vw,38px);margin-top:24px}
 .collection{padding-top:58px;padding-bottom:50px}.section-head{max-width:1180px}.rail-controls{max-width:1180px}
 .running-strip{margin-top:46px;padding-top:24px}.running-head{max-width:920px;margin:0 auto}.running-body{max-width:920px;margin:0 auto;grid-template-columns:170px minmax(0,1fr);gap:56px;padding:24px 0 16px}.running-stat strong{font-size:68px}.running-route{width:100%;max-width:none}.running-strip .shelf-line{max-width:920px;margin:0 auto}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }
+}
+
+/* Desktop-native editorial composition */
+@media(min-width:721px){
+  .hero-copy{max-width:1120px}
+  .hero h1{margin-bottom:30px}
+  .dek,.socials{margin-left:0}
+  .dek{max-width:510px;margin-bottom:20px}
+
+  #play{padding-left:0}
+  #play .section-head,#play .rail-wrap{width:min(920px,calc(100vw - 92px));max-width:none;margin-left:auto;margin-right:auto}
+  #play .section-head{display:block;padding-right:0;margin-bottom:34px}
+  #play .section-head>div{display:flex;align-items:baseline;gap:18px}
+  #play .section-head p{margin:18px 0 0 0;max-width:330px}
+  #play .rail{grid-auto-columns:min(920px,100%);max-width:none;padding:0 0 16px;scroll-padding:0}
+  #play .project{display:grid;grid-template-columns:1.08fr .92fr;min-height:350px;scroll-snap-align:start}
+  #play .project .visual{height:100%;min-height:350px}
+  #play .project-copy{min-height:350px;padding:25px 28px 30px;display:flex;flex-direction:column}
+  #play .project-copy h3{font-size:clamp(38px,3.4vw,50px);margin:72px 0 18px}
+  #play .rail-controls{max-width:none;padding:0}
+
+  #play .running-strip{width:min(920px,calc(100vw - 92px));margin:54px auto 0;padding-top:22px}
+  #play .running-head{max-width:none;margin:0}
+  #play .running-body{max-width:none;margin:0;grid-template-columns:190px minmax(0,1fr);gap:34px;padding:18px 0 14px;align-items:center}
+  #play .running-stat{align-items:center}
+  #play .running-stat strong{font-size:72px}
+  #play .running-route{height:190px;width:100%;max-width:none}
+  #play .running-strip .shelf-line{max-width:none;margin:0}
+}
