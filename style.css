@@ -341,3 +341,5 @@ header{border-bottom-color:rgba(23,23,19,.13)}
   .reader-hero h1{grid-column:1;grid-row:3;font-size:clamp(64px,6.5vw,94px);line-height:.86;letter-spacing:-.03em;max-width:650px;margin:0}
   .reader-hero>p{grid-column:2;grid-row:3;align-self:end;margin:0;font-size:18px;line-height:1.45;max-width:270px;padding-bottom:4px}
 }
+
+@media(min-width:721px){.reader-visual.is-placeholder{display:none}}
