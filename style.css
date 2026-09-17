@@ -280,3 +280,26 @@ header{border-bottom-color:rgba(23,23,19,.13)}
   .subscribe-copy p{font-size:42px}
   footer{padding-left:max(3.2vw,calc((100vw - 920px)/2));padding-right:max(3.2vw,calc((100vw - 920px)/2));gap:56px}
 }
+
+/* Refined desktop transitions, feed and shelf */
+@media(min-width:721px){
+  /* A shared-width footer rail bridges the full-bleed hero into the contained editorial page */
+  .hero-foot{width:var(--desktop-frame);margin-left:auto;margin-right:auto;padding-top:16px;border-top:1px solid rgba(23,23,19,.22)}
+
+  /* Notebook stays a scalable text feed, not a card collection */
+  #notes .notebook-head{display:flex;justify-content:space-between;padding:48px 0 16px;margin-top:48px;border-top:1px solid var(--line)}
+  #notes .notebook-head a,#notes .notebook-head span{font:10px DM Mono;text-transform:uppercase;color:inherit}
+  #notes .notebook-log{display:block;padding-bottom:32px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  #notes .notebook-log .home-notebook-toggle{border:0;border-bottom:1px solid var(--line);background:transparent}
+  #notes .notebook-log .home-notebook-toggle:last-child{border-bottom:0}
+  #notes .notebook-log .home-notebook-toggle summary{grid-template-columns:90px 1fr 24px;gap:24px;padding:24px 0;min-height:0}
+  #notes .notebook-log .home-notebook-toggle .index-copy h3{font-size:25px}
+  #notes .notebook-log .home-notebook-toggle .notebook-expanded{padding:0 50px 30px 114px}
+
+  /* Books remain independent objects on a shelf */
+  #notes .reading-books{display:flex;gap:38px;padding:30px 8px 22px;align-items:flex-end}
+  #notes .reading-book{width:150px;display:block;border:0;padding:0;background:transparent}
+  #notes .book-cover{width:150px}
+  #notes .book-copy{padding:14px 2px 0}
+  #notes .book-copy h3{font-size:23px}
+}
