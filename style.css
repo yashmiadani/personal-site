@@ -137,9 +137,9 @@ main>section[id]{scroll-margin-top:84px}
 .subscribe-copy{align-self:start}.subscribe-copy p{padding-bottom:0}.subscribe-form{align-self:center;margin-top:30px}@media(max-width:720px){.subscribe-block{gap:24px}.subscribe-copy p{margin-top:18px}.subscribe-form{margin-top:2px;padding-top:14px}}
 
 /* Approved palette cleanup and stat hierarchy */
-.sunlight{position:absolute;z-index:0;pointer-events:none;inset:-28% -35%;opacity:.44;mix-blend-mode:multiply;background:linear-gradient(116deg,transparent 24%,rgba(220,170,105,.04) 34%,rgba(220,170,105,.22) 45%,rgba(255,224,167,.38) 52%,rgba(220,170,105,.15) 61%,rgba(92,67,45,.035) 68%,transparent 78%);filter:blur(24px);transform:translate3d(-7%,0,0) rotate(.01deg);animation:sunlight-shift 55s ease-in-out infinite alternate}@keyframes sunlight-shift{0%{transform:translate3d(-7%,0,0) rotate(.01deg);opacity:.38}100%{transform:translate3d(8%,2%,0) rotate(1.2deg);opacity:.5}}.running-strip{padding-top:28px}.running-body{padding-top:30px}.running-stat strong{font-size:clamp(68px,8vw,118px);line-height:.78}@media(max-width:720px){.running-strip{margin-top:68px;padding-top:24px}.running-stat strong{font-size:64px}.running-body{padding-top:26px}}
+.sunlight{position:absolute;z-index:0;pointer-events:none;inset:-24% -28%;opacity:.82;mix-blend-mode:multiply;background:linear-gradient(116deg,transparent 18%,rgba(205,143,75,.08) 27%,rgba(246,205,137,.5) 41%,rgba(255,229,174,.62) 55%,rgba(205,143,75,.2) 68%,transparent 80%);filter:blur(12px);transform:translate3d(-7%,0,0) rotate(.01deg);animation:sunlight-shift 38s ease-in-out infinite alternate}@keyframes sunlight-shift{0%{transform:translate3d(-7%,0,0) rotate(.01deg);opacity:.72}100%{transform:translate3d(8%,2%,0) rotate(1.2deg);opacity:.9}}.running-strip{padding-top:28px}.running-body{padding-top:30px}.running-stat strong{font-size:clamp(68px,8vw,118px);line-height:.78}@media(max-width:720px){.running-strip{margin-top:68px;padding-top:24px}.running-stat strong{font-size:64px}.running-body{padding-top:26px}}
 
-@media(max-width:720px){.sunlight{inset:-20% -80%;filter:blur(20px);animation-duration:45s}}@media(prefers-reduced-motion:reduce){.sunlight{animation:none;transform:translate3d(0,0,0);opacity:.42}}
+@media(max-width:720px){.sunlight{inset:-18% -72%;filter:blur(10px);animation-duration:32s}}@media(prefers-reduced-motion:reduce){.sunlight{animation:none;transform:translate3d(0,0,0);opacity:.42}}
 
 /* Shelf-aligned Running and Subscribe rhythm */
 .running-strip{margin-top:72px;padding-top:34px;border-top:1px solid var(--line)}
@@ -161,4 +161,6 @@ header{border-bottom-color:rgba(23,23,19,.13)}
 .running-strip .shelf-line{height:1px;border:0;background:rgba(23,23,19,.2)}
 .subscribe-block{border-top:0}
 .shelf-line{border-top-width:1px;border-bottom-color:rgba(23,23,19,.14)}
-.running-route path{stroke-width:1.55}.route-distance rect{fill:var(--paper);stroke:rgba(23,23,19,.25);stroke-width:1}.route-distance text{font:10px DM Mono;text-transform:uppercase;fill:var(--ink);letter-spacing:.03em}
+.running-route path{stroke-width:1.55}
+
+.sunlight::after{content:"";position:absolute;inset:12% 20%;opacity:.18;background:linear-gradient(90deg,transparent 0 45%,rgba(66,49,35,.52) 47% 49%,transparent 51% 100%),linear-gradient(0deg,transparent 0 52%,rgba(66,49,35,.38) 54% 56%,transparent 58% 100%);filter:blur(7px);transform:skewX(-10deg)}
