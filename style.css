@@ -245,3 +245,38 @@ header{border-bottom-color:rgba(23,23,19,.13)}
   #notes .rail-controls,#work .rail-controls{max-width:none;padding:0}
   #notes .rail-button,#work .rail-button{display:none}
 }
+
+/* Full-page desktop editorial system */
+@media(min-width:721px){
+  :root{--desktop-frame:min(920px,calc(100vw - 92px));--desktop-gap:16px}
+  #play .section-head,#play .rail-wrap,#notes .section-head,#notes .rail-wrap,#work .section-head,#work .rail-wrap{width:var(--desktop-frame)}
+
+  /* One landscape card language: feature at full width, collections at half width */
+  #notes .rail,#work .rail{grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--desktop-gap)}
+  #notes .project,#work .project{height:270px;grid-template-columns:42% 58%;grid-template-rows:1fr}
+  #notes .project .visual,#work .project .visual{height:270px;min-height:270px}
+  #notes .project-copy,#work .project-copy{height:270px;min-height:270px;padding:19px 20px 22px;display:flex;flex-direction:column}
+  #notes .project-copy h3,#work .project-copy h3{font-size:clamp(27px,2.15vw,32px);margin:48px 0 13px;-webkit-line-clamp:3}
+  #notes .project-copy .subtitle,#work .project-copy .subtitle{font-size:12px;line-height:1.5;-webkit-line-clamp:3}
+  #notes .visual span,#work .visual span{font-size:clamp(78px,8vw,112px)}
+
+  /* Notebook and reading become equal editorial modules on the same frame */
+  #notes .notebook-head,#notes .notebook-log,#notes .reading-shelf{width:var(--desktop-frame);margin-left:auto;margin-right:auto}
+  #notes .notebook-head{padding:52px 0 16px;border-top:1px solid var(--line);margin-top:48px}
+  #notes .notebook-log{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--desktop-gap);border-bottom:1px solid var(--line);padding-bottom:42px}
+  #notes .notebook-log .home-notebook-toggle{border:1px solid var(--line);background:var(--paper)}
+  #notes .notebook-log .home-notebook-toggle summary{grid-template-columns:44px 1fr 20px;gap:12px;padding:20px;min-height:158px}
+  #notes .notebook-log .home-notebook-toggle .index-copy h3{font-size:26px}
+  #notes .notebook-log .home-notebook-toggle .notebook-expanded{padding:0 20px 24px 76px}
+  #notes .reading-shelf{margin-top:48px;padding-top:20px;border-top:1px solid var(--line)}
+  #notes .reading-books{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--desktop-gap);padding:24px 0 20px;align-items:stretch}
+  #notes .reading-book{width:auto;display:grid;grid-template-columns:112px 1fr;gap:18px;align-items:end;border:1px solid var(--line);padding:16px;background:var(--paper)}
+  #notes .book-cover{width:112px}.book-copy{padding:0 0 3px}.book-copy h3{font-size:27px}
+
+  /* Closing sections continue the same measure and spacing rhythm */
+  .about{padding:78px max(3.2vw,calc((100vw - 920px)/2)) 72px}
+  .about>p{font-size:clamp(48px,4.5vw,66px);line-height:1;max-width:920px;margin:60px 0 68px}
+  .subscribe-block{grid-template-columns:1fr 1fr;gap:56px;padding:54px max(3.2vw,calc((100vw - 920px)/2)) 58px}
+  .subscribe-copy p{font-size:42px}
+  footer{padding-left:max(3.2vw,calc((100vw - 920px)/2));padding-right:max(3.2vw,calc((100vw - 920px)/2));gap:56px}
+}
