@@ -211,3 +211,6 @@ header{border-bottom-color:rgba(23,23,19,.13)}
   #play .running-route{height:190px;width:100%;max-width:none}
   #play .running-strip .shelf-line{max-width:none;margin:0}
 }
+
+/* Route must remain legible at every animation frame */
+.running-route path{animation:none!important;stroke-dashoffset:0!important;opacity:1!important}
