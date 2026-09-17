@@ -214,3 +214,17 @@ header{border-bottom-color:rgba(23,23,19,.13)}
 
 /* Route must remain legible at every animation frame */
 .running-route path{animation:none!important;stroke-dashoffset:0!important;opacity:1!important}
+
+/* Desktop-native Notes composition */
+@media(min-width:721px){
+  #notes{padding-left:0}
+  #notes .section-head,#notes .rail-wrap{width:min(920px,calc(100vw - 92px));max-width:none;margin-left:auto;margin-right:auto}
+  #notes .section-head{display:block;padding-right:0;margin-bottom:34px}
+  #notes .section-head>div{display:flex;align-items:baseline;gap:18px}
+  #notes .section-head p{margin:18px 0 0;max-width:330px}
+  #notes .rail{grid-auto-flow:initial;grid-template-columns:repeat(2,minmax(0,1fr));max-width:none;padding:0 0 16px;gap:16px;overflow:visible}
+  #notes .project{width:auto;scroll-snap-align:start}
+  #notes .project .visual{height:250px}
+  #notes .project-copy{min-height:210px}
+  #notes .rail-controls{max-width:none;padding:0}
+}
