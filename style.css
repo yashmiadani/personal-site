@@ -326,3 +326,8 @@ header{border-bottom-color:rgba(23,23,19,.13)}
   .reader-body{grid-template-columns:190px minmax(0,1fr);gap:70px;max-width:none}
   .reader-copy{max-width:660px}
 }
+
+/* Route motion without disappearing: permanent line plus traveling highlight */
+.running-route path{animation:route-breathe 8s ease-in-out infinite!important;stroke-dashoffset:0!important}
+@keyframes route-breathe{0%,100%{opacity:.62;stroke-width:1.45}45%,70%{opacity:1;stroke-width:2.05}}
+@media(prefers-reduced-motion:reduce){.running-route path{animation:none!important;opacity:1!important}}
