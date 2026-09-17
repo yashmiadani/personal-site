@@ -164,3 +164,13 @@ header{border-bottom-color:rgba(23,23,19,.13)}
 .running-route path{stroke-width:1.55}
 
 .sunlight::before,.sunlight::after{content:"";position:absolute;pointer-events:none}.sunlight::before{inset:-10% 14%;opacity:.16;background:linear-gradient(102deg,transparent 0 35%,rgba(54,40,29,.5) 39% 43%,transparent 47% 62%,rgba(54,40,29,.32) 65% 69%,transparent 73%);filter:blur(12px);transform:rotate(-5deg);animation:shadow-sway-a 71s cubic-bezier(.42,0,.24,1) infinite}.sunlight::after{inset:10% 8%;opacity:.13;background:linear-gradient(18deg,transparent 0 42%,rgba(72,52,34,.48) 45% 49%,transparent 53% 100%);filter:blur(18px);transform:skewX(-12deg);animation:shadow-sway-b 83s cubic-bezier(.38,0,.18,1) infinite}@keyframes shadow-sway-a{0%,100%{transform:translate3d(-2%,0,0) rotate(-5deg);opacity:.12}48%{transform:translate3d(5%,1.5%,0) rotate(-3.8deg);opacity:.2}68%{transform:translate3d(3%,-.5%,0) rotate(-4.4deg);opacity:.17}}@keyframes shadow-sway-b{0%,100%{transform:translate3d(2%,0,0) skewX(-12deg);opacity:.1}38%{transform:translate3d(-4%,2%,0) skewX(-10deg);opacity:.16}72%{transform:translate3d(1%,-1%,0) skewX(-13deg);opacity:.12}}
+
+/* Coherent wide-screen scale */
+@media(min-width:721px){
+.hero{height:100vh;min-height:620px;max-height:none;padding-top:clamp(42px,6vh,72px)}
+.collection{padding-top:64px;padding-bottom:56px}.section-head{margin-bottom:30px}.section-head h2{font-size:clamp(58px,5.8vw,88px)}
+.rail{grid-auto-columns:min(38vw,520px);gap:16px}.notes-rail{grid-auto-columns:min(44vw,610px)}
+.visual{height:min(21vw,290px)}.project h3{font-size:clamp(30px,2.6vw,42px);margin-top:27px}.project-copy{padding:15px 17px 18px}
+.notes article{min-height:270px;padding:22px;grid-template-columns:84px 1fr}.notes article h3{font-size:clamp(34px,3.5vw,52px)}
+.running-strip{margin-top:54px;padding-top:26px}.running-body{grid-template-columns:minmax(150px,.58fr) 1.35fr;gap:5vw;padding:26px 4px 18px;max-width:1040px}.running-stat strong{font-size:clamp(54px,5.4vw,80px)}.running-route{max-width:690px}
+}
