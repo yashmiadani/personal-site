@@ -1,6 +1,6 @@
 const YASHMI_RESUME={
   "name": "Yashmi Adani",
-  "location": "Bengaluru & Mumbai [QC]",
+  "location": "Bengaluru & Mumbai",
   "headline": "Early-stage operator across strategy, growth, operations, health and technology.",
   "phone": "+91 96191 90290",
   "phoneHref": "+919619190290",
