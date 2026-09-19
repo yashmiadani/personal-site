@@ -12,11 +12,12 @@ const YASHMI_RESUME={
     {
       "dates": "2025-2026",
       "place": "Bengaluru",
-      "title": "Head of Growth & Operations",
+      "title": "Head of Growth &amp; Operations",
       "org": "The Wisdom Club / Elder care",
       "bullets": [
         "Led planning and delivery for a second centre: property evaluation and acquisition, BOQs, vendors, construction, SOPs and medical-team coordination.",
-        "Owned P&L and accounting; hired and trained corporate staff, nurses and caregivers.",
+        "Owned P&L and accounting; hired, trained and managed corporate staff, nurses and caregivers.",
+        "Drove end-to-end tech integration: co-developed the facility-management and patient-data platform and the operational workflow for all facilities with the vendor, as their design partners.",
         "Directed growth strategy, performance marketing and brand identity."
       ],
       "text": "",
@@ -107,5 +108,5 @@ const YASHMI_RESUME={
     }
   ],
   "courses": "Digital Marketing, Cambridge Judge; Entrepreneurship, HBS Online; Platform Strategy, Section4",
-  "writing": "On Deck Writer Fellowship · Foster, writer/editor · The Feline Foundation, founded an animal-welfare NGO at nineteen"
+  "writing": "On Deck Writer Fellowship · Foster, writer/editor · The Feline Foundation, founded an animal-welfare NGO at nineteen · Volunteered at NGOs teaching school kids"
 };
