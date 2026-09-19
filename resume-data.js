@@ -12,7 +12,7 @@ const YASHMI_RESUME={
     {
       "dates": "2025-2026",
       "place": "Bengaluru",
-      "title": "Head of Growth &amp; Operations",
+      "title": "Head of Growth & Operations",
       "org": "The Wisdom Club / Elder care",
       "bullets": [
         "Led planning and delivery for a second centre: property evaluation and acquisition, BOQs, vendors, construction, SOPs and medical-team coordination.",
