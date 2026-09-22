@@ -1,13 +1,13 @@
 const YASHMI_RESUME={
   "name": "Yashmi Adani",
   "location": "Bengaluru & Mumbai",
-  "headline": "",
+  "headline": "Early-stage operator across strategy, growth, operations, health and technology.",
   "phone": "+91 96191 90290",
   "phoneHref": "+919619190290",
   "linkedin": "https://www.linkedin.com/in/yashmiadani/",
   "twitter": "https://x.com/yashmiadani",
   "substack": "https://notsupersmart.substack.com/",
-  "profile": "0-1 operator in fintech and health across GTM/growth, strategy & operations.",
+  "profile": "Mission-driven zero-to-one and scale-up operator across GTM, growth, strategy and operations, with experience spanning fintech, health, AI and responsible technology.",
   "experience": [
     {
       "dates": "2025-2026",
