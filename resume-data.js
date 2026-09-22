@@ -12,7 +12,7 @@ const YASHMI_RESUME={
     {
       "dates": "2025-2026",
       "place": "Bengaluru",
-      "title": "Led Growth Strategy & Operations",
+      "title": "Led Growth Strategy &amp; Operations",
       "org": "The Wisdom Club / Elder care",
       "bullets": [
         "Led planning and delivery for a second centre: property evaluation and acquisition, BOQs, vendor sourcing and procurement, SOPs, hiring, training, etc",
@@ -29,8 +29,8 @@ const YASHMI_RESUME={
       "title": "Founder",
       "org": "Oleka / Clinic SaaS venture",
       "bullets": [
-        "· Built a clinic-management SaaS venture with a technical co-founder, with a consumer psychometric-testing layer.",
-        "· Led research, sales, product direction, business-model development and fundraising conversations; no external funding raised."
+        "Built a clinic-management SaaS venture with a technical co-founder, with a consumer psychometric-testing layer.",
+        "Led research, sales, product direction, business-model development and fundraising conversations; no external funding raised."
       ],
       "note": "Programs Oleka was selected for: Antler India Residency · Hume AI for Startups· Perplexity for Business Founders · Microsoft for Startups",
       "text": ""
