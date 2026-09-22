@@ -1,24 +1,24 @@
 const YASHMI_RESUME={
   "name": "Yashmi Adani",
   "location": "Bengaluru & Mumbai",
-  "headline": "Early-stage operator across strategy, growth, operations, health and technology.",
+  "headline": "",
   "phone": "+91 96191 90290",
   "phoneHref": "+919619190290",
   "linkedin": "https://www.linkedin.com/in/yashmiadani/",
   "twitter": "https://x.com/yashmiadani",
   "substack": "https://notsupersmart.substack.com/",
-  "profile": "Mission-driven zero-to-one and scale-up operator across GTM, growth, strategy and operations, with experience spanning fintech, health, AI and responsible technology.",
+  "profile": "0-1 operator in fintech and health across GTM/growth, strategy & operations.",
   "experience": [
     {
       "dates": "2025-2026",
       "place": "Bengaluru",
-      "title": "Led Growth &amp; Operations",
+      "title": "Led Growth Strategy & Operations",
       "org": "The Wisdom Club / Elder care",
       "bullets": [
-        "Led planning and delivery for a second centre: property evaluation and acquisition, BOQs, vendors, construction, SOPs and medical-team coordination.",
-        "Owned P&L and accounting; hired, trained and managed corporate staff, nurses and caregivers.",
-        "Drove end-to-end tech integration: co-developed the facility-management and patient-data platform and the operational workflow for all facilities with the vendor, as their design partners.",
-        "Directed growth strategy, performance marketing and brand identity."
+        "· Led planning and delivery for a second centre: property evaluation and acquisition, BOQs, vendor sourcing and procurement, SOPs, hiring, training, etc",
+        "· Owned P&L and accounting; hired, trained and managed corporate staff, nurses and caregivers.",
+        "· Drove end-to-end tech integration: co-developed the facility-management and patient-data platform and the operational workflow for all facilities with the vendor, as their design partners.",
+        "· Directed growth strategy, performance marketing and brand identity."
       ],
       "text": "",
       "note": ""
@@ -29,10 +29,10 @@ const YASHMI_RESUME={
       "title": "Founder",
       "org": "Oleka / Clinic SaaS venture",
       "bullets": [
-        "Built a clinic-management SaaS venture with a technical co-founder, plus a consumer psychometric-testing layer.",
-        "Led research, product direction, business-model development and fundraising conversations; no external funding raised."
+        "· Built a clinic-management SaaS venture with a technical co-founder, with a consumer psychometric-testing layer.",
+        "· Led research, sales, product direction, business-model development and fundraising conversations; no external funding raised."
       ],
-      "note": "Programs: Antler India Residency · Hume AI · Perplexity for Business Founders · Microsoft for Startups",
+      "note": "Programs Oleka was selected for: Antler India Residency · Hume AI for Startups· Perplexity for Business Founders · Microsoft for Startups",
       "text": ""
     },
     {
@@ -40,7 +40,7 @@ const YASHMI_RESUME={
       "place": "",
       "title": "Founder Residency",
       "org": "Antler India",
-      "text": "Selected for Antler's founder residency (<1% acceptance), focused on venture-scale validation and founder-market fit.",
+      "text": "Selected for Antler's founder residency (<1% acceptance), focused on venture-scale validation for business ideas in healthcare.",
       "bullets": [],
       "note": ""
     },
@@ -49,7 +49,7 @@ const YASHMI_RESUME={
       "place": "Alongside Oleka",
       "title": "Independent Growth Consultant",
       "org": "Anthriq · Ferta · Proof of Skill",
-      "text": "Led early GTM for BCI hardware, zero-to-one operations and fundraising preparation in fertility care, and growth for an Antler-backed skill-verification platform.",
+      "text": "Led early GTM for BCI hardware (Anthriq), zero-to-one operations and fundraising preparation in fertility care (Ferta), and growth for an Antler-backed skill-verification platform (Proof of Skill).",
       "bullets": [],
       "note": ""
     },
@@ -59,9 +59,7 @@ const YASHMI_RESUME={
       "title": "Marketing / Growth",
       "org": "Vested Finance / Series A+",
       "bullets": [
-        "First marketing hire; built the function from zero and supported scale to 1M+ users across acquisition, community, SEO, influencers and paid media.",
-        "Implemented Mixpanel and retention journeys across push, email, SMS and WhatsApp.",
-        "Led regulated-fintech content and bank-partnership copy/UI across product, design, engineering, security and compliance."
+        "First marketing hire. Built newsletter & organic content ops, onboarding and retention journeys & analysis in Mixpanel, wrote the B2B white-label partnership copy and UI for bank tie-ups, working across product, design, engineering and compliance. Ran the full growth stack - community, influencer, SEO, media buying - plus co-marketing partnerships with Cred and Times Prime."
       ],
       "text": "",
       "note": ""
@@ -71,7 +69,7 @@ const YASHMI_RESUME={
       "place": "",
       "title": "Marketing Manager, 0-1",
       "org": "Klub",
-      "text": "First marketing hire; built B2B/B2C positioning, growth experiments, research, events, PR and collateral.",
+      "text": "First marketing hire; built B2B/B2C positioning, growth experiments, research, events, PR and other external-facing collateral.",
       "compact": true,
       "bullets": [],
       "note": ""
@@ -81,7 +79,7 @@ const YASHMI_RESUME={
       "place": "",
       "title": "Strategy Consultant",
       "org": "Wishberry",
-      "text": "Owned campaign strategy and storytelling, raising INR 2.5 crore across 50+ creative crowdfunding campaigns.",
+      "text": "Owned campaign strategy and storytelling, raising INR 2.5 crore in non-dilutive funds across 50+ creative crowdfunding campaigns.",
       "compact": true,
       "bullets": [],
       "note": ""
@@ -91,7 +89,7 @@ const YASHMI_RESUME={
       "place": "",
       "title": "Brand Operations Manager",
       "org": "Zcyphher",
-      "text": "Brand, marketing and business operations for an early-stage startup.",
+      "text": "Brand, marketing and business operations for an early-stage startup. ",
       "compact": true,
       "bullets": [],
       "note": ""
@@ -107,6 +105,6 @@ const YASHMI_RESUME={
       "institution": "Columbia University (admitted; declined)"
     }
   ],
-  "courses": "Digital Marketing, Cambridge Judge; Entrepreneurship, HBS Online; Platform Strategy, Section4",
-  "writing": "On Deck Writer Fellowship · Foster, writer/editor · The Feline Foundation, founded an animal-welfare NGO at nineteen · Volunteered at NGOs teaching school kids"
+  "courses": "· Strategic Digital Marketing, Cambridge Judge; \n· Entrepreneurship, HBS Online; \n· Platform Strategy, Section4",
+  "writing": "On Deck Writer Fellowship · Foster, writer/editor · Hustle Fund Angel Squad"
 };
