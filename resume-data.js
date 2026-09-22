@@ -12,7 +12,7 @@ const YASHMI_RESUME={
     {
       "dates": "2025-2026",
       "place": "Bengaluru",
-      "title": "Led Growth Strategy &amp; Operations",
+      "title": "Led Growth Strategy & Operations",
       "org": "The Wisdom Club / Elder care",
       "bullets": [
         "Led planning and delivery for a second centre: property evaluation and acquisition, BOQs, vendor sourcing and procurement, SOPs, hiring, training, etc",
