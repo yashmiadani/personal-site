@@ -106,5 +106,5 @@ const YASHMI_RESUME={
     }
   ],
   "courses": "· Strategic Digital Marketing, Cambridge Judge; \n· Entrepreneurship, HBS Online; \n· Platform Strategy, Section4",
-  "writing": "On Deck Writers Fellow · Foster, Writer Fellow · Foster Editor Fellow · Hustle Fund Angel Squad"
+  "writing": "On Deck Writers Fellow · Foster, Writer Fellow · Foster Editor Fellow  "
 };
