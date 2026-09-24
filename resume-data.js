@@ -1,18 +1,18 @@
 const YASHMI_RESUME={
   "name": "Yashmi Adani",
   "location": "Bengaluru & Mumbai",
-  "headline": "Early-stage operator across strategy, growth, operations, health and technology.",
+  "headline": "",
   "phone": "+91 96191 90290",
   "phoneHref": "+919619190290",
   "linkedin": "https://www.linkedin.com/in/yashmiadani/",
   "twitter": "https://x.com/yashmiadani",
   "substack": "https://notsupersmart.substack.com/",
-  "profile": "Mission-driven zero-to-one and scale-up operator across GTM, growth, strategy and operations, with experience spanning fintech, health, AI and responsible technology.",
+  "profile": "0-1 operator in fintech and health across GTM/growth, strategy & operations.",
   "experience": [
     {
       "dates": "2025-2026",
       "place": "Bengaluru",
-      "title": "Led Growth Strategy & Operations",
+      "title": "Led Growth Strategy &amp; Operations",
       "org": "The Wisdom Club / Elder care",
       "bullets": [
         "Led planning and delivery for a second centre: property evaluation and acquisition, BOQs, vendor sourcing and procurement, SOPs, hiring, training, etc",
