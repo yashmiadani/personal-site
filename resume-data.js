@@ -15,7 +15,7 @@ const YASHMI_RESUME={
       "title": "Led Growth Strategy & Operations",
       "org": "The Wisdom Club / Elder care",
       "bullets": [
-        "Led planning and delivery for a second centre: property evaluation and acquisition, BOQs, vendor sourcing and procurement, SOPs, hiring, training, etc",
+        "Led planning and delivery for a 35 bedded second centre - property evaluation and acquisition, BOQs, vendor sourcing and procurement, SOPs, hiring, training staff, etc.",
         "Owned P&L and accounting; hired, trained and managed corporate staff, nurses and caregivers.",
         "Drove end-to-end tech integration: co-developed the facility-management and patient-data platform and the operational workflow for all facilities with the vendor, as their design partners.",
         "Directed growth strategy, performance marketing and brand identity."
