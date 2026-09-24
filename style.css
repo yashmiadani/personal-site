@@ -212,8 +212,6 @@ header{border-bottom-color:rgba(23,23,19,.13)}
   #play .running-strip .shelf-line{max-width:none;margin:0}
 }
 
-/* Route must remain legible at every animation frame */
-.running-route path{animation:none!important;stroke-dashoffset:0!important;opacity:1!important}
 
 /* Desktop-native Notes composition */
 @media(min-width:721px){
@@ -327,10 +325,6 @@ header{border-bottom-color:rgba(23,23,19,.13)}
   .reader-copy{max-width:660px}
 }
 
-/* Route motion without disappearing: permanent line plus traveling highlight */
-.running-route path{animation:route-breathe 8s ease-in-out infinite!important;stroke-dashoffset:0!important}
-@keyframes route-breathe{0%,100%{opacity:.62;stroke-width:1.45}45%,70%{opacity:1;stroke-width:2.05}}
-@media(prefers-reduced-motion:reduce){.running-route path{animation:none!important;opacity:1!important}}
 
 /* Deliberate desktop reader masthead */
 @media(min-width:721px){
@@ -415,10 +409,11 @@ header{border-bottom-color:rgba(23,23,19,.13)}
 @media print{.resume-onepage .resume-masthead{padding:0 0 3.2mm}.resume-onepage .resume-topline{font-size:6pt}.resume-onepage .resume-title-row{grid-template-columns:1.5fr .8fr;margin:5mm 0 4mm}.resume-onepage .resume-title-row h1{font-size:38pt;line-height:.75}.resume-onepage .resume-title-row p{font-size:12pt}.resume-onepage .resume-contact{padding-top:2mm;gap:5mm;font-size:6pt}.resume-onepage .resume-intro{padding:3.2mm 0 3.7mm;grid-template-columns:22mm 1fr;gap:5mm}.resume-onepage .resume-intro p{font-size:13.5pt;line-height:1.02}.resume-onepage .resume-section{padding:3.5mm 0 2.5mm}.resume-onepage .resume-section-heading,.resume-onepage .resume-section-label,.resume-onepage .resume-role-meta,.resume-onepage .resume-footer{font-size:6pt}.resume-onepage .resume-section-heading{padding-bottom:1.5mm}.resume-onepage .resume-role,.resume-onepage .resume-role.compact{grid-template-columns:22mm 1fr;gap:5mm;padding:1.55mm 0;break-inside:avoid}.resume-onepage .resume-role h2{font-size:11.5pt;line-height:.95}.resume-onepage .resume-role h3{font-size:5.8pt;margin:.7mm 0 1mm}.resume-onepage .resume-role p,.resume-onepage .resume-role li{font-size:6.5pt;line-height:1.25}.resume-onepage .resume-role ul{padding-left:3mm}.resume-onepage .resume-role li+li{margin-top:.3mm}.resume-onepage .resume-affiliation-line{font-size:5.5pt!important;line-height:1.25!important;margin-top:1mm!important}.resume-onepage .resume-credentials{grid-template-columns:1.2fr 1fr;gap:6mm;padding:2.7mm 0 3mm;break-inside:avoid}.resume-onepage .resume-credentials p{font-size:6pt;line-height:1.35;margin:1.5mm 0 0}.resume-onepage .resume-footer{padding:2mm 0}}
 .resume-onepage .credential-lines span{display:block}.resume-onepage .credential-lines span+span{margin-top:3px}
 @media print{.resume-onepage .credential-lines span+span{margin-top:.35mm}}
-/* Running route motion: visible, low-risk breathing loop for line and endpoint. */
-.running-route path{animation:route-breathe 8s ease-in-out infinite!important;stroke-dashoffset:0!important}
+/* Running route: a faint full route stays put while an ink trace draws along it on a loop. */
+.running-route path{stroke-dashoffset:0}
+.running-route #running-route-ghost{animation:none;opacity:.22;stroke-width:1.35}
+.running-route #running-route-path{stroke-width:1.9;animation:route-trace 7s cubic-bezier(.45,0,.2,1) infinite}
+@keyframes route-trace{0%{stroke-dashoffset:var(--route-length,900px);opacity:1}62%,86%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
 #running-route-end{transform-box:fill-box;transform-origin:center;animation:route-end-breathe 2.4s ease-in-out infinite}
 @keyframes route-end-breathe{0%,100%{transform:scale(.72);opacity:.38;stroke-width:1}50%{transform:scale(1.35);opacity:1;stroke-width:1.7}}
-@media(prefers-reduced-motion:reduce){.running-route path,#running-route-end{animation:none!important;opacity:1!important;transform:none!important}}
-
-
+@media(prefers-reduced-motion:reduce){.running-route #running-route-path,#running-route-end{animation:none;stroke-dashoffset:0;opacity:1;transform:none}}
