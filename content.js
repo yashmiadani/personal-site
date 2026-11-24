@@ -163,13 +163,13 @@ window.YASHMI_CONTENT = {
       ]
     },
     {
-      "id": "chapter-wisdom",
+      "id": "chapter-eldercare",
       "section": "work",
       "type": "Career chapter",
       "year": "2025-26",
-      "title": "The Wisdom Club: led growth & operations",
-      "subtitle": "Growth, strategy and operations for an assisted-living chain, including its 35-bed second centre.",
-      "description": "<p>Led growth, strategy and operations at The Wisdom Club, an assisted-living chain.</p><p>Led planning and delivery for a 35-bed second centre - property evaluation and acquisition, BOQs, vendor sourcing and procurement, SOPs, hiring and staff training. Owned P&amp;L and accounting; hired, trained and managed corporate staff, nurses and caregivers.</p><p>Drove end-to-end tech integration: co-developed the facility-management and patient-data platform and the operational workflow for all facilities with the vendor, as their design partner. Directed growth strategy, performance marketing and brand identity.</p>",
+      "title": "Assisted living: led growth & operations",
+      "subtitle": "Growth, strategy and operations for an assisted-living chain.",
+      "description": "<p>Led growth, strategy and operations for an assisted-living chain.</p><p>Led planning and delivery for a second centre end to end - property evaluation and acquisition, BOQs, vendor sourcing and procurement, SOPs, hiring and staff training. Owned P&amp;L and accounting; hired, trained and managed corporate staff, nurses and caregivers.</p><p>Drove end-to-end tech integration: co-developed the facility-management and patient-data platform and the operational workflow for all facilities with the vendor, as their design partner. Directed growth strategy, performance marketing and brand identity.</p>",
       "image": "",
       "color": "blue",
       "featured": true,
