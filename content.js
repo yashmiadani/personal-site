@@ -28,7 +28,8 @@ window.YASHMI_CONTENT = {
       "featured": true,
       "tags": [
         "Personal software"
-      ]
+      ],
+      "date": "2026"
     },
     {
       "id": "essay-ai-creativity",
@@ -94,7 +95,8 @@ window.YASHMI_CONTENT = {
       "tags": [
         "Crowdfunding",
         "Storytelling"
-      ]
+      ],
+      "date": "2018-20"
     },
     {
       "id": "chapter-klub",
@@ -110,7 +112,8 @@ window.YASHMI_CONTENT = {
       "tags": [
         "Fintech",
         "0 to 1"
-      ]
+      ],
+      "date": "2020-21"
     },
     {
       "id": "chapter-vested",
@@ -126,7 +129,8 @@ window.YASHMI_CONTENT = {
       "tags": [
         "Fintech",
         "Growth"
-      ]
+      ],
+      "date": "2021-23"
     },
     {
       "id": "chapter-consulting",
@@ -143,7 +147,8 @@ window.YASHMI_CONTENT = {
         "Consulting",
         "Healthcare",
         "Fintech"
-      ]
+      ],
+      "date": "2023-25"
     },
     {
       "id": "chapter-oleka",
@@ -160,7 +165,8 @@ window.YASHMI_CONTENT = {
         "Founder",
         "SaaS",
         "Healthcare"
-      ]
+      ],
+      "date": "2023-25"
     },
     {
       "id": "chapter-eldercare",
@@ -177,7 +183,8 @@ window.YASHMI_CONTENT = {
         "Operations",
         "Growth",
         "Elder care"
-      ]
+      ],
+      "date": "2025-26"
     }
   ],
   "subscribe": {
