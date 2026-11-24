@@ -14,28 +14,10 @@ window.YASHMI_CONTENT = {
   },
   "projects": [
     {
-      "id": "app-what-now",
-      "section": "play",
-      "type": "Small app",
-      "year": "2026",
-      "title": "What now?",
-      "subtitle": "A small app that reduces everything on my plate to one clear next step.",
-      "description": "<p>A small app I made for myself, for days when everything competes for attention at once.</p><p>Each area of life shows a single next action, with the rest tucked underneath. Swipe to mark something in progress, tap to finish it. One step, then the next.</p>",
-      "image": "",
-      "embedUrl": "",
-      "details": "",
-      "color": "acid",
-      "featured": true,
-      "tags": [
-        "Personal software"
-      ],
-      "date": "2026"
-    },
-    {
       "id": "essay-ai-creativity",
       "section": "notes",
       "type": "Essay",
-      "year": " GMT",
+      "year": "2023",
       "date": "6 March 2023",
       "title": "on AI x creativity",
       "subtitle": "An attempt at defining AI's complicated dynamic with human creativity · 2,377 words",
@@ -52,7 +34,7 @@ window.YASHMI_CONTENT = {
       "id": "essay-performative-joy",
       "section": "notes",
       "type": "Essay",
-      "year": " GMT",
+      "year": "2023",
       "date": "15 January 2023",
       "title": "the search for authenticity in a world of performative joy",
       "subtitle": "Dreams, false ideals of success, and the disillusionment of my mid-twenties · 874 words",
@@ -68,7 +50,7 @@ window.YASHMI_CONTENT = {
       "id": "essay-fleeting-connections",
       "section": "notes",
       "type": "Essay",
-      "year": " GMT",
+      "year": "2021",
       "date": "28 August 2021",
       "title": "finding depth in fleeting connections",
       "subtitle": "Merry-go-round people, kama muta, and why consistency isn't the answer to deep connections · 1,205 words",
@@ -80,111 +62,6 @@ window.YASHMI_CONTENT = {
         "Essay",
         "Relationships"
       ]
-    },
-    {
-      "id": "chapter-wishberry",
-      "section": "work",
-      "type": "Career chapter",
-      "year": "2018-20",
-      "title": "Wishberry: storytelling that raised INR 2.5 crore",
-      "subtitle": "Owned campaign strategy and storytelling across 50+ creative crowdfunding campaigns, all non-dilutive.",
-      "description": "<p>Owned campaign strategy and storytelling at Wishberry, India's crowdfunding platform for creative work, raising INR 2.5 crore in non-dilutive funds across 50+ campaigns.</p><p>The work ran end to end: selecting and counselling project owners, building each campaign's story, editing the fundraising videos, designing reward tiers, and managing pages and funds with accounting.</p>",
-      "image": "",
-      "color": "paper",
-      "featured": false,
-      "tags": [
-        "Crowdfunding",
-        "Storytelling"
-      ],
-      "date": "2018-20"
-    },
-    {
-      "id": "chapter-klub",
-      "section": "work",
-      "type": "Career chapter",
-      "year": "2020-21",
-      "title": "Klub: founding-team marketing, 0 to 1",
-      "subtitle": "First marketing hire on the founding team; positioning, growth experiments, research, events and PR.",
-      "description": "<p>First marketing hire on the founding team at Klub, working directly with the founder and chief of staff.</p><p>Built B2B and B2C positioning, growth experiments, user research, events, PR and other external-facing collateral, from zero to one.</p>",
-      "image": "",
-      "color": "acid",
-      "featured": false,
-      "tags": [
-        "Fintech",
-        "0 to 1"
-      ],
-      "date": "2020-21"
-    },
-    {
-      "id": "chapter-vested",
-      "section": "work",
-      "type": "Career chapter",
-      "year": "2021-23",
-      "title": "Vested: first marketing hire",
-      "subtitle": "Growth for a fintech making US stocks investable for Indians.",
-      "description": "<p>First marketing hire at Vested, a fintech making US stocks investable for Indians.</p><p>Built onboarding and retention journeys and analysis in Mixpanel, wrote the B2B white-label partnership copy and UI for bank tie-ups, working across product, design, engineering and compliance. Ran the full growth stack - community, influencer, SEO, media buying - plus co-marketing partnerships with Cred and Times Prime.</p>",
-      "image": "",
-      "color": "blue",
-      "featured": false,
-      "tags": [
-        "Fintech",
-        "Growth"
-      ],
-      "date": "2021-23"
-    },
-    {
-      "id": "chapter-consulting",
-      "section": "work",
-      "type": "Career chapter",
-      "year": "2023-25",
-      "title": "Independent growth consulting",
-      "subtitle": "Anthriq, Ferta and Proof of Skill - early GTM, 0 to 1 operations and fundraise preparation.",
-      "description": "<p>Independent growth consulting across healthcare and fintech, alongside Oleka.</p><p>Led early GTM for BCI hardware at Anthriq, zero-to-one operations and fundraising preparation in fertility care at Ferta, and growth for Proof of Skill, an Antler-backed skill-verification platform.</p>",
-      "image": "",
-      "color": "paper",
-      "featured": false,
-      "tags": [
-        "Consulting",
-        "Healthcare",
-        "Fintech"
-      ],
-      "date": "2023-25"
-    },
-    {
-      "id": "chapter-oleka",
-      "section": "work",
-      "type": "Career chapter",
-      "year": "2023-25",
-      "title": "Oleka: founding a clinic software venture",
-      "subtitle": "Built a clinic-management SaaS with a consumer psychometric-testing layer.",
-      "description": "<p>Founded Oleka, a clinic-management SaaS with a consumer psychometric-testing layer, with a technical co-founder.</p><p>Led research, sales, product direction, business-model development and fundraising conversations; no external funding raised.</p><p>Built out of Antler's India founder residency (less than 1% acceptance). Oleka was also selected for Hume AI for Startups, Perplexity for Business Founders and Microsoft for Startups.</p>",
-      "image": "",
-      "color": "coral",
-      "featured": true,
-      "tags": [
-        "Founder",
-        "SaaS",
-        "Healthcare"
-      ],
-      "date": "2023-25"
-    },
-    {
-      "id": "chapter-eldercare",
-      "section": "work",
-      "type": "Career chapter",
-      "year": "2025-26",
-      "title": "Assisted living: led growth & operations",
-      "subtitle": "Growth, strategy and operations for an assisted-living chain.",
-      "description": "<p>Led growth, strategy and operations for an assisted-living chain.</p><p>Led planning and delivery for a second centre end to end - property evaluation and acquisition, BOQs, vendor sourcing and procurement, SOPs, hiring and staff training. Owned P&amp;L and accounting; hired, trained and managed corporate staff, nurses and caregivers.</p><p>Drove end-to-end tech integration: co-developed the facility-management and patient-data platform and the operational workflow for all facilities with the vendor, as their design partner. Directed growth strategy, performance marketing and brand identity.</p>",
-      "image": "",
-      "color": "blue",
-      "featured": true,
-      "tags": [
-        "Operations",
-        "Growth",
-        "Elder care"
-      ],
-      "date": "2025-26"
     }
   ],
   "subscribe": {
